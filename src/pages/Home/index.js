@@ -116,7 +116,7 @@ function Home (){
 
     return (
         <div className="p-8  ">
-            <div className='w-8/12 tex-center items-center mt-10 mb-10'>
+            <div className='tex-center items-center mt-4 mb-10'>
                 <h1 className='font-bold text-2xl text-info text-center '>Statistik Pasien dan Pemeriksaan</h1>
             </div>
             <div className='flex'>

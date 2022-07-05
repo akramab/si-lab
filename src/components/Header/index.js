@@ -2,7 +2,7 @@ import {getImagePath} from '../../helpers/getImagePath';
 
 function Header (params) {
     return (
-        <div className='sticky top-0 flex h-20 items-center shadow-md bg-white' id='HeaderNavBar' style={{ transition: 'top 0.3s' }}>
+        <div className='sticky top-0 flex h-20 items-center shadow-md bg-white' id='HeaderNavBar' style={{ transition: 'top 0.3s' }} style={{zIndex:"1"}}>
             <div className='flex items-center px-10 justify-between w-full'>
                 <h1 className='text-4xl bold font-bold text-info'>Sistem Informasi Laboratorium</h1>
                 <div className='flex'>
