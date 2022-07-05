@@ -163,8 +163,6 @@ function Kunjungan (){
                         <select class="select select-bordered" defaultValue={5} onChange={(e) => handleChange(e.target.value)}>
                             <option value={5}>5</option>
                             <option value={10}>10</option>
-                            <option value={15}>15</option>
-                            <option value={20}>20</option>
                         </select>
                     </div>
                     <p className="ml-2">entries</p>

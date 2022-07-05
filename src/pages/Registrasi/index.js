@@ -17,11 +17,9 @@ function Registrasi (){
 
     useEffect = () => {
         getTotal()
-        console.log(arrayCb)
     }
 
     function getTotal() {
-        console.log("masuk")
         var totalTrue = 0
 
         for (var i = 0; i<arrayCb.length; i++) {
