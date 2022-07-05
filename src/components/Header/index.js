@@ -6,10 +6,10 @@ function Header (params) {
             <div className='flex items-center px-10 justify-between w-full'>
                 <h1 className='text-4xl bold font-bold text-info'>Sistem Informasi Laboratorium</h1>
                 <div className='flex'>
-                    <div className='mr-3'>
+                    <a className='mr-3' href='/change-password'>
                         <h3 className='font-bold text-xl'>Username</h3>
                         <p>Administrator</p>
-                    </div>
+                    </a>
                     <img src={getImagePath('/images/icons/avatar.svg')} alt='avatar username' className='rounded-full mr-3' style={{width:50,height:50}}/>
                     <div className='group items-center flex justify-center'>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 group-hover:stroke-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
